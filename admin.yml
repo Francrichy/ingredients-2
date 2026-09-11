@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+locale: "sw"
+collections:
+  - name: "products"
+    label: "Bidhaa"
+    files:
+      - name: "products"
+        label: "Orodha ya Bidhaa"
+        file: "content/products.json"
+        fields:
+          - name: "products"
+            label: "Bidhaa Zote"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Jina la Bidhaa", widget: "string" }
+              - { name: "price", label: "Bei (TZS)", widget: "number", value_type: "int" }
+              - { name: "unit", label: "Kipimo", widget: "string", default: "kwa kilo" }
+              - { name: "category", label: "Kikundi", widget: "select", options: ["Food Additives", "Cosmetics", "Industrial", "Nyingine"] }
+              - { name: "image", label: "Picha", widget: "image" }
+              - { name: "description", label: "Maelezo", widget: "text", required: false }

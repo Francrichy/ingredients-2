@@ -1,0 +1,10 @@
+{
+  "products": [
+    { "name": "Citric Acid", "price": 15000, "unit": "kwa kilo", "category": "Food Additives", "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=400", "description": "Asidi ya citric kwa vyakula" },
+    { "name": "Sodium Bicarbonate", "price": 8000, "unit": "kwa kilo", "category": "Food Additives", "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400", "description": "Baking soda" },
+    { "name": "Glycerin", "price": 22000, "unit": "kwa lita", "category": "Cosmetics", "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400", "description": "Glycerin safi" },
+    { "name": "Essential Oil - Lavender", "price": 35000, "unit": "kwa 100ml", "category": "Cosmetics", "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400", "description": "Mafuta ya lavender" },
+    { "name": "Caustic Soda", "price": 12000, "unit": "kwa kilo", "category": "Industrial", "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=400", "description": "Kwa kutengeneza sabuni" },
+    { "name": "Hydrogen Peroxide", "price": 18000, "unit": "kwa lita", "category": "Industrial", "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=400", "description": "Kwa kusafisha" }
+  ]
+}

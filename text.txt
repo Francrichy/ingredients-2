@@ -1,0 +1,6 @@
+duka-demo/
+├── index.html
+├── content/products.json
+├── admin/index.html
+├── admin/config.yml
+└── _redirects
